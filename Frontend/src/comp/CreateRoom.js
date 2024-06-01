@@ -42,7 +42,7 @@ const CreateRoom = () => {
         placeholder="Enter username"
         onChange={(e) => setUserName(e.target.value)}
       />
-      <button onClick={joinRoom}>Join Room</button>
+      <button style={{color:"black"}} onClick={joinRoom}>Join Room</button>
     </div>
   );
 };
