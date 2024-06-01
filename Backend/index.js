@@ -103,6 +103,11 @@ io.on("connection", (socket) => {
   });
 });
 
+
+app.get("/", (req, res) => {
+  res.send("This is / page");
+});
+
 server.listen(3001, () => {
   console.log("Server started at 3001");
 });
