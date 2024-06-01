@@ -9,8 +9,6 @@ const io = socket(server, {
   cors: {
     origin: "*",
     methods: ["GET", "POST"],
-    allowedHeaders: ["my-custom-header"],
-    credentials: true
   },
 });
 
